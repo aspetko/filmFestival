@@ -64,7 +64,6 @@
         width: auto !important;
         border: none;
         font-size: 14px;
-        color: white;
       }
     </style>
 
@@ -82,167 +81,300 @@
       }
     </script>
   </head>
-  <body style="background-image: url('assets/img/stonebg2.jpg'); height: 900px; background-attachment: fixed; background-position: center; color: white;">
+  <body>
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Information
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="information/About.html">About the festival</a></li>
+            <li><a href="http://www1.nyc.gov/" target="_blank">City of Brooklyn’s News</a></li>
+            <li><a href="https://www.brooklynbridgepark.org/" target="_blank"> Brooklyn Bridge Park</a></li>
+
+          </ul>
+        </li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reserve A Spot on ...
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">All Dates</a></li>
-            <li><a href="#">October, the 5<sup>th</sup></a></li>
-            <li><a href="#">October, the 6<sup>th</sup></a></li>
-            <li><a href="#">October, the 7<sup>th</sup></a></li>
-            <li><a href="#">October, the 8<sup>th</sup></a></li>
+            <li><a href="byDates/All.html">All Dates</a></li>
+            <li><a href="byDates/5th.html">August, the 5<sup>th</sup></a></li>
+            <li><a href="byDates/6th.html">August, the 6<sup>th</sup></a></li>
+            <li><a href="byDates/7th.html">August, the 7<sup>th</sup></a></li>
+            <li><a href="byDates/8th.html">August, the 8<sup>th</sup></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">By Genres...
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Adventure</a></li>
-            <li><a href="#">Comedy</a></li>
-            <li><a href="#">Crime</a></li>
-            <li><a href="#">Drama</a></li>
-            <li><a href="#">Knight and Castels</a></li>
-            <li><a href="#">Horror</a></li>
-            <li><a href="#">Mystery</a></li>
-            <li><a href="#">Martial Arts</a></li>
-            <li><a href="#">Romantic</a></li>
-            <li><a href="#">Thriller</a></li>
-            <li><a href="#">War</a></li>
-            <li><a href="#">Western</a></li>
+            <li><a href="index.html">All of them...</a></li>
+            <li><a href="byGenres/Action.html">Action</a></li>
+            <li><a href="byGenres/Adventure.html">Adventure</a></li>
+            <li><a href="byGenres/Comedy.html">Comedy</a></li>
+            <li><a href="byGenres/Crime.html">Crime</a></li>
+            <li><a href="byGenres/Drama.html">Drama</a></li>
+            <li><a href="byGenres/Castel.html">Knight and Castels</a></li>
+            <li><a href="byGenres/Horror.html">Horror</a></li>
+            <li><a href="byGenres/Mystery.html">Mystery</a></li>
+            <li><a href="byGenres/MartialArts.html">Martial Arts</a></li>
+            <li><a href="byGenres/Romantic.html">Romantic</a></li>
+            <li><a href="byGenres/Thriller.html">Thriller</a></li>
+            <li><a href="byGenres/War.html">War</a></li>
+            <li><a href="byGenres/Western.html">Western</a></li>
           </ul>
         </li>
+        <li class="active"><a href="FAQ.html">Frequently Asked Questions(FAQ)</a></li>
       </ul>
       <ul class="nav navbar-nav social pull-right list-inline">
         <li>
-          <a href="https://www.facebook.com"><i class="fa fa-lg fa-facebook"></i></a>
+          <a href="https://www.facebook.com" target="_blank"><i class="fa fa-lg fa-facebook"></i></a>
         </li>
         <li>
-          <a href="https://twitter.com"><i class="fa fa-lg fa-twitter"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fa fa-lg fa-twitter"></i></a>
         </li>
         <li>
-          <a href="https://plus.google.com/"><i class="fa fa-lg fa-google-plus"></i></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com"><i class="fa fa-lg fa-linkedin"></i></a>
+          <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>
         </li>
       </ul>
     </div>
   </nav>
-
-    <aside style="position: fixed; top: 100px; left: 20px;">
-      <div>
-        <img src="assets/img/torch_left.gif">
-      </div>
-    </aside>
-
-  <h1>Brooklyn Outdoor Film Festival</h1>
-
+  <h1>Welcome at the Brooklyn Outdoor Film Festival</h1>
 
   <div class="container">
     <fieldset class="scheduler-border">
       <legend class="scheduler-border">Top Movie's from Brooklyn Outdoor Film Festival:</legend>
-    <br>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
-       </ol>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+          <li data-target="#myCarousel" data-slide-to="8"></li>
+          <li data-target="#myCarousel" data-slide-to="9"></li>
+          <li data-target="#myCarousel" data-slide-to="10"></li>
+          <li data-target="#myCarousel" data-slide-to="11"></li>
+          <li data-target="#myCarousel" data-slide-to="12"></li>
+          <li data-target="#myCarousel" data-slide-to="13"></li>
+          <li data-target="#myCarousel" data-slide-to="14"></li>
+          <li data-target="#myCarousel" data-slide-to="15"></li>
+          <li data-target="#myCarousel" data-slide-to="16"></li>
+          <li data-target="#myCarousel" data-slide-to="17"></li>
+          <li data-target="#myCarousel" data-slide-to="18"></li>
+          <li data-target="#myCarousel" data-slide-to="19"></li>
+          <li data-target="#myCarousel" data-slide-to="20"></li>
+          <li data-target="#myCarousel" data-slide-to="21"></li>
+          <li data-target="#myCarousel" data-slide-to="22"></li>
+          <li data-target="#myCarousel" data-slide-to="23"></li>
+        </ol>
 
-      <!-- Wrapper for slides -->
-      <fieldset class="carousel-inner" role="listbox">
+        <!-- Wrapper for slides -->
+        <fieldset class="carousel-inner" role="listbox">
 
-        <div class="item active">
-          <img src="assets/img/ales-krivec-188743.jpg" alt="First slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>Once apon a time in Mountain Ville</h3>
-            <p>The atmosphere in Mountain Ville is cold and deadly.</p>
+          <div class="item active">
+            <img src="assets/img/ales-krivec-188743.jpg" alt="First slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Once apon a time in Mountain Ville</h3>
+              <p>The atmosphere in Mountain Ville is cold and deadly.</p>
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <img src="assets/img/andreas-p-30199.jpg" alt="Second slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>Bambi's Revenge</h3>
-            <p>See the Walt Disney clasic Digital Remastered.</p>
+          <div class="item">
+            <img src="assets/img/andreas-p-30199.jpg" alt="Second slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Bambi's Revenge</h3>
+              <p>See the Walt Disney clasic Digital Remastered.</p>
 
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <img src="assets/img/kasparov-vs-ibm-deep-blue-640x414.jpg" alt="Third slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>Terminal Consequences</h3>
-            <p>Since the dawn of mankind we've been working on our distinction...</p>
+          <div class="item">
+            <img src="assets/img/kasparov-vs-ibm-deep-blue-640x414.jpg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Terminal Consequences</h3>
+              <p>Since the dawn of mankind we've been working on our distinction...</p>
 
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <img src="assets/img/katana_1.jpg" alt="Third slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>I used to love him, but I had to kill him</h3>
-            <p>Adaptation of the Guns n’ Roses Song By Milky Cow</p>
+          <div class="item">
+            <img src="assets/img/katana_1.jpg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>I used to love him, but I had to kill him</h3>
+              <p>Adaptation of the Guns n’ Roses Song By Milky Cow</p>
 
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <img src="assets/img/photo-1453738773917-9c3eff1db985.jpeg" alt="Third slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>Scream the Legacy Continues</h3>
-            <p>Billy and Stu are Back Again, After a Adventurous Prison Break </p>
+          <div class="item">
+            <img src="assets/img/photo-1453738773917-9c3eff1db985.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Scream the Legacy Continues</h3>
+              <p>Billy and Stu are Back Again, After a Adventurous Prison Break </p>
 
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <img src="assets/img/photo-1496979551903-46e46589a88b.jpeg" alt="Third slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>Flowers</h3>
-            <p>Beautiful flowers in Kolymbari, Crete.</p>
-
+          <div class="item">
+            <img src="assets/img/photo-1496979551903-46e46589a88b.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>The way of the worrier.</h3>
+              <p>Akuma Koshuke fights his way to the Thai Boxing heavy world champion title by day and crime at night... </p>
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <img src="assets/img/photo-1500252185289-40ca85eb23a7.jpeg" alt="Third slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>Flowers</h3>
-            <p>Beautiful flowers in Kolymbari, Crete.</p>
-
+          <div class="item">
+            <img src="assets/img/photo-1500252185289-40ca85eb23a7.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Gop Tun</h3>
+              <p>Replace two letters to find the real name of the movie.</p>
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <img src="assets/img/photo-1504964148034-86ded740d1e2.jpeg" alt="Third slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>Flowers</h3>
-            <p>Beautiful flowers in Kolymbari, Crete.</p>
+          <div class="item">
+            <img src="assets/img/photo-1504964148034-86ded740d1e2.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>The wrong site of the Road.</h3>
+              <p>You made a wrong turn, into the woods and now what...</p>
 
+            </div>
           </div>
-        </div>
 
-        <div class="item">
-          <img src="assets/img/photo-1508326289668-bc6e6c8e89ec.jpeg" alt="Third slide" width="460" height="345">
-          <div class="carousel-caption">
-            <h3>Hamlet, Prince of Denmarke by William Shakespeare</h3>
-            <p>Starring Quentin Rodriguez and Robert Tarantino</p>
+          <div class="item">
+            <img src="assets/img/photo-1508326289668-bc6e6c8e89ec.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Hamlet, Prince of Denmarke by William Shakespeare</h3>
+              <p>Starring Quentin Rodriguez and Robert Tarantino</p>
+            </div>
           </div>
-        </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1460194436988-671f763436b7.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>A knight without fear</h3>
+              <p>What ever, when ever</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1470114510979-0a6062f10aee.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Free Willy, Peter and other hostages.</h3>
+              <p>The Sea World Story</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1474049509743-1c4295e8b1fc.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Burn My Wood, light my fire!</h3>
+              <p>A native american on the way to the end of his journey.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1476887681081-d28974cce4f6.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Make War Not War</h3>
+              <p>No war for oil, use butter instead.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1485652326772-ff3eae0b221f.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Dead Track Nebuci Expedition</h3>
+              <p>Exploring the Arctic Circle</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1489749798305-4fea3ae63d43.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>A desert flower</h3>
+              <p>Where the wild roses grow...</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1490535004195-099bc723fa1f.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>A Spy among us</h3>
+              <p>James Bond was killed in action, Great Britan left the european union, this sentence makes no sence at all.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1493851449704-07ee5725d916.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Hitman IX</h3>
+              <p>It is now or never...</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1501596334720-404bceb0d5bc.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>A Seed of hate</h3>
+              <p>Spread the desaster arround the globe</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1507745512299-8bd0e0b3380f.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>We are the world</h3>
+              <p>Save the date</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1454789476662-53eb23ba5907.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>In the eye of a hurrican...</h3>
+              <p>Catharina, the strongest storm ever is coming to town.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1455757618770-0a58b0b28ebd.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Stupid is who stuopid does</h3>
+              <p>A comedy ...</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1491975751332-14c21ca0990c.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>The Murder of Holly Stevens</h3>
+              <p>An interactive crime invastigation...</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1500282330145-93b0dac2da02.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>The Y files...</h3>
+              <p>Nobody knows why...</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="assets/img/photo-1502488207239-dcf4114041cd.jpeg" alt="Third slide" width="460" height="345">
+            <div class="carousel-caption">
+              <h3>Horror Clowns...</h3>
+              <p>Butter, milk and honey...</p>
+            </div>
+          </div>
 
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -255,178 +387,29 @@
         </a>
       </fieldset>
     </div>
-    <fieldset class="scheduler-border">
-      <form class="form-horizontal">
-        <legend class="scheduler-border">Reservation System:</legend>
-        <label class="control-label input-label" for="firstNameField">First Name:</label>
-        <div class="controls">
-          <input class="form-control mr-sm-2" type="text" placeholder="Clint" aria-label="First Name" id="firstNameField">
-        </div>
-        <label class="control-label input-label" for="nameField">Name:</label>
-        <div class="controls">
-          <input class="form-control mr-sm-2" type="text" placeholder="Eastwood" aria-label="Name" id="nameField">
-        </div>
-        <fieldset class="scheduler-border">
-          <form class="form-horizontal">
-            <legend class="scheduler-border">October the 5<sup>th</sup>:</legend>
-            <table class="table table-hover">
-              <tr>
-                <td>&nbsp;</td>
-                <th>Movie</th>
-                <th>Cinema</th>
-                <th>Seats</th>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('51')"></td>
-                <td>Bambi's Revenege</td>
-                <td>Cinema 1</td>
-                <td><input id="51" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('52')"></td>
-                <td>Bambi Returns</td>
-                <td>Cinema 2</td>
-                <td><input id="52" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('53')"></td>
-                <td>From Dusk till Dawn - Bambi in the world of Happiness</td>
-                <td>Cinema 3</td>
-                <td><input id="53" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('54')"></td>
-                <td>Bambi's Revenege</td>
-                <td>Cinema 4</td>
-                <td><input id="54" type="number" value="2" disabled></td>
-              </tr>
-            </table>
-          </form>
-        </fieldset>
-        <fieldset class="scheduler-border">
-          <form class="form-horizontal">
-            <legend class="scheduler-border">October the 6<sup>th</sup>:</legend>
-            <table class="table table-hover">
-              <tr>
-                <td>&nbsp;</td>
-                <th>Movie</th>
-                <th>Cinema</th>
-                <th>Seats</th>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('61')"></td>
-                <td>Bambi's Revenege</td>
-                <td>Cinema 1</td>
-                <td><input id="61" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('62')"></td>
-                <td>Bambi Returns</td>
-                <td>Cinema 2</td>
-                <td><input id="62" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('63')"></td>
-                <td>From Dusk till Dawn - Bambi in the world of Happiness</td>
-                <td>Cinema 3</td>
-                <td><input id="63" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('64')"></td>
-                <td>Bambi's Revenege</td>
-                <td>Cinema 4</td>
-                <td><input id="64" type="number" value="2" disabled></td>
-              </tr>
-            </table>
-          </form>
-        </fieldset>
-        <fieldset class="scheduler-border">
-          <form class="form-horizontal">
-            <legend class="scheduler-border">October the 7<sup>th</sup>:</legend>
-            <table class="table table-hover">
-              <tr>
-                <td>&nbsp;</td>
-                <th>Movie</th>
-                <th>Cinema</th>
-                <th>Seats</th>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('71')"></td>
-                <td>Bambi's Revenege</td>
-                <td>Cinema 1</td>
-                <td><input id="71" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('72')"></td>
-                <td>Bambi Returns</td>
-                <td>Cinema 2</td>
-                <td><input id="72" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('73')"></td>
-                <td>From Dusk till Dawn - Bambi in the world of Happiness</td>
-                <td>Cinema 3</td>
-                <td><input id="73" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('74')"></td>
-                <td>Bambi's Revenege</td>
-                <td>Cinema 4</td>
-                <td><input id="74" type="number" value="2" disabled></td>
-              </tr>
-            </table>
-          </form>
-        </fieldset>
-        <fieldset class="scheduler-border">
-          <form class="form-horizontal">
-            <legend class="scheduler-border">October the 8<sup>th</sup>:</legend>
-            <table class="table table-hover">
-              <tr>
-                <td>&nbsp;</td>
-                <th>Movie</th>
-                <th>Cinema</th>
-                <th>Seats</th>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('81')"></td>
-                <td>Bambi's Revenege</td>
-                <td>Cinema 1</td>
-                <td><input id="81" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('82')"></td>
-                <td>Bambi Returns</td>
-                <td>Cinema 2</td>
-                <td><input id="82" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('83')"></td>
-                <td>From Dusk till Dawn - Bambi in the world of Happiness</td>
-                <td>Cinema 3</td>
-                <td><input id="83" type="number" value="2" disabled></td>
-              </tr>
-              <tr>
-                <td><input type="radio" name="cinema_1" onclick="enableNumberInputForSelectedRow('84')"></td>
-                <td>Bambi's Revenege</td>
-                <td>Cinema 4</td>
-                <td><input id="84" type="number" value="2" disabled></td>
-              </tr>
-            </table>
-          </form>
-        </fieldset>
+<br>
+      <p>Dear mostly valued movie enthusiast</p>
 
-        <div class="form-group">
-          <div>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign me up!</button>
-            <button class="btn btn-outline-reset my-2 my-sm-0" type="reset">No Thanks!</button>
-        </div>
-      </div>
-      </form>
-    </fieldset>
-  <aside style="float: right; position: fixed; top: 100px; right: 20px;">
-    <img src="assets/img/torch_right.gif">
-  </aside>
-  <footer class="footer" style="position: fixed;  color: #FFF; height: 40px; bottom:0%; width:100%; opacity: 1; ">
+      <p>thank you for your interest in the Brooklyn Outdoor Film Festival. The festival is totally free and open for everybody.</p>
+
+      <p>The reservation system is there to give us a rough estimation of how much interest is in a particular movie.</p>
+
+      <p>We can't offer you a certain position inside of the viewing area.</p>
+
+      <p>Remeber: First comes, first serve.</p>
+
+      <p>In case you have any questions, suggestions or feedback, please feel free to <a href="mailto:Jennifer.Viala@email.com">contact us</a>.</p>
+      <p>We would like to hear from you.</p>
+
+      <p>Enjoy your visit at the Brooklyn Outdoor Film Festival. We are here for you!</p>
+
+      <p>Best Regards, </p>
+
+      <p>Jennifer Viala,</p>
+
+      <p>CEO Brooklyn Vibes Events Co.</p>
+
+   <footer class="footer" style="position: fixed;  color: #FFF; height: 40px; bottom:0%; width:100%; opacity: 1; ">
     <!--Big footer goes here-->
   </footer>
   <!-- Optional JavaScript -->
